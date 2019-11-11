@@ -16,4 +16,4 @@
 
 Using this Dockerfile, it's now possible to run all of the Laravel Web Applications, it will just be a matter of copying the application source code in /home/application/
 
-Ambiente para aplicaciones basdas en el framework laravel con dependencias como node, perl, ruby integradas.
+Ambiente para aplicaciones basadas en el framework laravel con dependencias como node, perl y ruby integradas.
