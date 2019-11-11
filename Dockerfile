@@ -8,7 +8,7 @@ COPY . /home/application/
 ENV APACHE_DOCUMENT_ROOT /home/application/public
 
 # Concatenated RUN commands
-RUN apk add --update apache2 php7-apache2 php7-mbstring php7-session php7-json php7-pdo php7-openssl php7-tokenizer php7-pdo php7-pdo_mysql php7-xml php7-simplexml nodejs perl ruby redis git nano \
+RUN apk add --update apache2 php7-apache2 php7-mbstring php7-session php7-json php7-pdo php7-openssl php7-tokenizer php7-pdo php7-pdo_mysql php7-xml php7-simplexml nodejs npm perl ruby redis git nano \
     && chmod -R 777 /home/application/storage \
     && chown -R www-data:www-data /home/application \
     && mkdir -p /run/apache2 \
